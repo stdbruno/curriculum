@@ -1,0 +1,18 @@
+@import "../variables.scss";
+
+.presentation-card {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 2em;
+    width: 30%;
+}
+
+.profile-img {
+    width: 15em;
+    height: 15em;
+    border-radius: 100%;
+    border: 10px solid $cold-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
